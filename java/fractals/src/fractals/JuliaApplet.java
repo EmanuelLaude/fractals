@@ -12,8 +12,8 @@ public class JuliaApplet extends Applet {
 	private Point o;
 	
 	public void init() {
-	    reC = 0.9;//Double.parseDouble(this.getParameter("reC"));
-	    imC = 0.76;//Double.parseDouble(this.getParameter("imC"));
+	    reC = 0.1;//Double.parseDouble(this.getParameter("reC"));
+	    imC = 0.6;//Double.parseDouble(this.getParameter("imC"));
 		o = new Point(this.getSize().width / 2, this.getSize().height / 2);	
 	}
 	
